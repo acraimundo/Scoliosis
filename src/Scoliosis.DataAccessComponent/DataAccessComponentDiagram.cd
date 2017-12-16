@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Scoliosis.DataAccessComponent.BaseDalc">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BaseDalc.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scoliosis.DataAccessComponent.PacienteDalc">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PacienteDalc.cs</FileName>
+      <HashCode>AAAAAAAQAAAAAAAAAEAAAAAAAAIAAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scoliosis.DataAccessComponent.UsuarioDalc">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UsuarioDalc.cs</FileName>
+      <HashCode>AAAAAAIAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

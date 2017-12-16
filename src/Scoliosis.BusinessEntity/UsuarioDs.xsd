@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UsuarioDs" targetNamespace="http://tempuri.org/UsuarioDs.xsd" xmlns:mstns="http://tempuri.org/UsuarioDs.xsd" xmlns="http://tempuri.org/UsuarioDs.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ScoliosisConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="ScoliosisConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Scoliosis.BusinessEntity.Properties.Settings.GlobalReference.Default.ScoliosisConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="UsuarioDs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="UsuarioDs" msprop:Generator_DataSetName="UsuarioDs">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Usuario" msprop:Generator_UserTableName="Usuario" msprop:Generator_RowDeletedName="UsuarioRowDeleted" msprop:Generator_TableClassName="UsuarioDataTable" msprop:Generator_RowChangedName="UsuarioRowChanged" msprop:Generator_RowClassName="UsuarioRow" msprop:Generator_RowChangingName="UsuarioRowChanging" msprop:Generator_RowEvArgName="UsuarioRowChangeEvent" msprop:Generator_RowEvHandlerName="UsuarioRowChangeEventHandler" msprop:Generator_TablePropName="Usuario" msprop:Generator_TableVarName="tableUsuario" msprop:Generator_RowDeletingName="UsuarioRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodigoUsuario" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="CodigoUsuario" msprop:Generator_ColumnPropNameInRow="CodigoUsuario" msprop:Generator_ColumnVarNameInTable="columnCodigoUsuario" msprop:Generator_ColumnPropNameInTable="CodigoUsuarioColumn" type="xs:int" />
+              <xs:element name="Nome" msprop:Generator_UserColumnName="Nome" msprop:Generator_ColumnPropNameInRow="Nome" msprop:Generator_ColumnVarNameInTable="columnNome" msprop:Generator_ColumnPropNameInTable="NomeColumn" default="">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Login" msprop:Generator_UserColumnName="Login" msprop:Generator_ColumnPropNameInRow="Login" msprop:Generator_ColumnVarNameInTable="columnLogin" msprop:Generator_ColumnPropNameInTable="LoginColumn" default="">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Senha" msprop:Generator_UserColumnName="Senha" msprop:Generator_ColumnPropNameInRow="Senha" msprop:Generator_ColumnVarNameInTable="columnSenha" msprop:Generator_ColumnPropNameInTable="SenhaColumn" default="">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tipo" msprop:Generator_UserColumnName="Tipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" type="xs:unsignedByte" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Usuario" />
+      <xs:field xpath="mstns:CodigoUsuario" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

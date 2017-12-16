@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CalculoIMCDs" targetNamespace="http://tempuri.org/CalculoIMCDs.xsd" xmlns:mstns="http://tempuri.org/CalculoIMCDs.xsd" xmlns="http://tempuri.org/CalculoIMCDs.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ScoliosisConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="ScoliosisConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Scoliosis.BusinessEntity.Properties.Settings.GlobalReference.Default.ScoliosisConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CalculoIMCDs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CalculoIMCDs" msprop:Generator_DataSetName="CalculoIMCDs">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CalculoIMC" msprop:Generator_UserTableName="CalculoIMC" msprop:Generator_RowDeletedName="CalculoIMCRowDeleted" msprop:Generator_TableClassName="CalculoIMCDataTable" msprop:Generator_RowChangedName="CalculoIMCRowChanged" msprop:Generator_RowClassName="CalculoIMCRow" msprop:Generator_RowChangingName="CalculoIMCRowChanging" msprop:Generator_RowEvArgName="CalculoIMCRowChangeEvent" msprop:Generator_RowEvHandlerName="CalculoIMCRowChangeEventHandler" msprop:Generator_TablePropName="CalculoIMC" msprop:Generator_TableVarName="tableCalculoIMC" msprop:Generator_RowDeletingName="CalculoIMCRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodigoCalculoIMC" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="CodigoCalculoIMC" msprop:Generator_ColumnPropNameInRow="CodigoCalculoIMC" msprop:Generator_ColumnVarNameInTable="columnCodigoCalculoIMC" msprop:Generator_ColumnPropNameInTable="CodigoCalculoIMCColumn" type="xs:int" />
+              <xs:element name="CodigoPaciente" msprop:Generator_UserColumnName="CodigoPaciente" msprop:Generator_ColumnPropNameInRow="CodigoPaciente" msprop:Generator_ColumnVarNameInTable="columnCodigoPaciente" msprop:Generator_ColumnPropNameInTable="CodigoPacienteColumn" type="xs:int" />
+              <xs:element name="CodigoUsuario" msprop:Generator_UserColumnName="CodigoUsuario" msprop:Generator_ColumnPropNameInRow="CodigoUsuario" msprop:Generator_ColumnVarNameInTable="columnCodigoUsuario" msprop:Generator_ColumnPropNameInTable="CodigoUsuarioColumn" type="xs:int" />
+              <xs:element name="CodigoImagem" msprop:Generator_UserColumnName="CodigoImagem" msprop:Generator_ColumnPropNameInRow="CodigoImagem" msprop:Generator_ColumnVarNameInTable="columnCodigoImagem" msprop:Generator_ColumnPropNameInTable="CodigoImagemColumn" type="xs:int" />
+              <xs:element name="Altura" msprop:Generator_UserColumnName="Altura" msprop:Generator_ColumnPropNameInRow="Altura" msprop:Generator_ColumnVarNameInTable="columnAltura" msprop:Generator_ColumnPropNameInTable="AlturaColumn" type="xs:double" />
+              <xs:element name="Massa" msprop:Generator_UserColumnName="Massa" msprop:Generator_ColumnPropNameInRow="Massa" msprop:Generator_ColumnVarNameInTable="columnMassa" msprop:Generator_ColumnPropNameInTable="MassaColumn" type="xs:double" />
+              <xs:element name="Data" msprop:Generator_UserColumnName="Data" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInTable="DataColumn" type="xs:dateTime" />
+              <xs:element name="Observacoes" msprop:Generator_UserColumnName="Observacoes" msprop:Generator_ColumnPropNameInRow="Observacoes" msprop:Generator_ColumnVarNameInTable="columnObservacoes" msprop:Generator_ColumnPropNameInTable="ObservacoesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CalculoIMC" />
+      <xs:field xpath="mstns:CodigoCalculoIMC" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

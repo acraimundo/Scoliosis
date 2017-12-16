@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Scoliosis.Utils.Image.BitmapTools">
+    <Position X="0.5" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>BitmapTools.cs</FileName>
+      <HashCode>AAAQAQAAgAAACAAAAAAAAAAAEIAAAAAABAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scoliosis.Utils.WIAUtil.ImageInfoComparer" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="3" Width="3" />
+    <TypeIdentifier>
+      <FileName>WIAImageInfo.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scoliosis.Utils.WIAUtil.WIAWrapper" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>WIAWrapper.cs</FileName>
+      <HashCode>AAIAgAAAACAAAABABCAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="Scoliosis.Utils.Image.PointCorrelation">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PointCorrelation.cs</FileName>
+      <HashCode>AAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAg=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Scoliosis.Utils.WIAUtil.WIACameraInfo">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WIACameraInfo.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAMAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Scoliosis.Utils.WIAUtil.WIAImageInfo">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WIAImageInfo.cs</FileName>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+</ClassDiagram>

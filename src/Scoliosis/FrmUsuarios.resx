@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lstUsuarios.ScrollAlwaysVisible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogin.Text" xml:space="preserve">
+    <value>Login:</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblNome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 9</value>
+  </data>
+  <data name="btnFechar.Text" xml:space="preserve">
+    <value>&amp;Fechar</value>
+  </data>
+  <data name="&gt;&gt;txtSenha.Name" xml:space="preserve">
+    <value>txtSenha</value>
+  </data>
+  <data name="&gt;&gt;lblUsuarios.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtNome.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnCriar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 63</value>
+  </data>
+  <data name="btnAlterar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 103</value>
+  </data>
+  <data name="btnNovo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnExcluir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 146</value>
+  </data>
+  <data name="&gt;&gt;btnAlterar.Name" xml:space="preserve">
+    <value>btnAlterar</value>
+  </data>
+  <data name="btnFechar.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblSenha.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnCriar.Text" xml:space="preserve">
+    <value>&amp;Criar</value>
+  </data>
+  <data name="btnExcluir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnExcluir.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblSenha.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtSenha.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblSenha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAlterar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="btnAlterar.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnCriar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtLogin.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="txtSenha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="&gt;&gt;lblLogin.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblNome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTipo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSenha.Name" xml:space="preserve">
+    <value>lblSenha</value>
+  </data>
+  <data name="lblNome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblUsuarios.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLogin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="btnAlterar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="&gt;&gt;btnFechar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtLogin.Name" xml:space="preserve">
+    <value>txtLogin</value>
+  </data>
+  <data name="lblLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="txtLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="cmbTipo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 150</value>
+  </data>
+  <data name="txtNome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 21</value>
+  </data>
+  <data name="&gt;&gt;lblLogin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtSenha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCriar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnNovo.Text" xml:space="preserve">
+    <value>&amp;Novo</value>
+  </data>
+  <data name="cmbTipo.Items1" xml:space="preserve">
+    <value>Fisioterapeuta</value>
+  </data>
+  <data name="&gt;&gt;btnCriar.Name" xml:space="preserve">
+    <value>btnCriar</value>
+  </data>
+  <data name="&gt;&gt;lblNome.Name" xml:space="preserve">
+    <value>lblNome</value>
+  </data>
+  <data name="btnNovo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 23</value>
+  </data>
+  <data name="&gt;&gt;lblUsuarios.Name" xml:space="preserve">
+    <value>lblUsuarios</value>
+  </data>
+  <data name="lblUsuarios.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnFechar.Name" xml:space="preserve">
+    <value>btnFechar</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtSenha.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnFechar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 415</value>
+  </data>
+  <data name="btnFechar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="&gt;&gt;lblUsuarios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblUsuarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="txtLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblUsuarios.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblTipo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmUsuarios</value>
+  </data>
+  <data name="&gt;&gt;txtNome.Name" xml:space="preserve">
+    <value>txtNome</value>
+  </data>
+  <data name="txtSenha.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="lblSenha.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbTipo.Items" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="&gt;&gt;cmbTipo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbTipo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtLogin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCriar.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtNome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnFechar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCriar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="&gt;&gt;lblLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtLogin.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.Name" xml:space="preserve">
+    <value>btnNovo</value>
+  </data>
+  <data name="lblNome.Text" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="&gt;&gt;txtLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFechar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtSenha.MaxLength" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="lblNome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Scoliosis.FrmBaseDialog, Scoliosis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtNome.MaxLength" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;cmbTipo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lstUsuarios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 200</value>
+  </data>
+  <data name="&gt;&gt;lblTipo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>498, 449</value>
+  </data>
+  <data name="txtSenha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 105</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Name" xml:space="preserve">
+    <value>btnExcluir</value>
+  </data>
+  <data name="lblSenha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 89</value>
+  </data>
+  <data name="lstUsuarios.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnCriar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 65</value>
+  </data>
+  <data name="btnAlterar.Text" xml:space="preserve">
+    <value>&amp;Alterar</value>
+  </data>
+  <data name="&gt;&gt;lblNome.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtSenha.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cadastro de Usuários</value>
+  </data>
+  <data name="lblUsuarios.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 184</value>
+  </data>
+  <data name="lblTipo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="lblUsuarios.Text" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="&gt;&gt;lblNome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbTipo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSenha.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtNome.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lstUsuarios.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstUsuarios.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lstUsuarios.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 49</value>
+  </data>
+  <data name="&gt;&gt;lblTipo.Name" xml:space="preserve">
+    <value>lblTipo</value>
+  </data>
+  <data name="&gt;&gt;btnAlterar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lstUsuarios.Name" xml:space="preserve">
+    <value>lstUsuarios</value>
+  </data>
+  <data name="lblTipo.Text" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="txtNome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lstUsuarios.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 238</value>
+  </data>
+  <data name="btnNovo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblTipo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSenha.Text" xml:space="preserve">
+    <value>Senha:</value>
+  </data>
+  <data name="&gt;&gt;cmbTipo.Name" xml:space="preserve">
+    <value>cmbTipo</value>
+  </data>
+  <data name="cmbTipo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblTipo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 134</value>
+  </data>
+  <data name="&gt;&gt;lblLogin.Name" xml:space="preserve">
+    <value>lblLogin</value>
+  </data>
+  <data name="lblTipo.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtNome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcluir.Text" xml:space="preserve">
+    <value>&amp;Excluir</value>
+  </data>
+  <data name="&gt;&gt;btnAlterar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSenha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

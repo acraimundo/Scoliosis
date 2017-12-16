@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmbNomePonto13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="cmbNomePonto4.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbNomePonto6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 228</value>
+  </data>
+  <data name="cmbNomePonto14.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto13.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto7.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="cmbNomePonto13.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNomePonto13.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto13.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto13.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto13.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbNomePonto6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="cmbNomePonto13.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto13.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbNomePonto2.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbNomePonto5.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;grpBox.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="cmbNomePonto4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 182</value>
+  </data>
+  <data name="lblNomePonto1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 13</value>
+  </data>
+  <data name="cmbNomePonto1.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto12.Name" xml:space="preserve">
+    <value>cmbNomePonto12</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto9.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="cmbNomePonto9.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblNomePonto13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbNomePonto1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 113</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNomePonto1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 116</value>
+  </data>
+  <data name="lblNomePonto15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbNomePonto13.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto14.Name" xml:space="preserve">
+    <value>lblNomePonto14</value>
+  </data>
+  <data name="lblNomePonto15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 13</value>
+  </data>
+  <data name="cmbNomePonto4.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNomePonto6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 13</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto11.Name" xml:space="preserve">
+    <value>lblNomePonto11</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto5.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="cmbNomePonto3.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto16.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblImagem.Name" xml:space="preserve">
+    <value>lblImagem</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto11.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cmbNomePonto15.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto10.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmbNomePonto7.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto2.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblNomePonto7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 13</value>
+  </data>
+  <data name="cmbNomePonto2.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblNomePonto15.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Scoliosis.FrmBaseDialog, Scoliosis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cmbNomePonto10.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblNomePonto2.Text" xml:space="preserve">
+    <value>2 - Acrômio Direito</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto9.Name" xml:space="preserve">
+    <value>lblNomePonto9</value>
+  </data>
+  <data name="cmbNomePonto8.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNomePonto9.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto8.Name" xml:space="preserve">
+    <value>lblNomePonto8</value>
+  </data>
+  <data name="cmbNomePonto11.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;pctImagem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto14.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblNomePonto5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 208</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto6.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto4.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto5.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto1.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto6.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto6.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbNomePonto6.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto6.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmbNomePonto6.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto6.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto16.Name" xml:space="preserve">
+    <value>cmbNomePonto16</value>
+  </data>
+  <data name="lblNomePonto7.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="cmbNomePonto5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 205</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNomePonto11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 346</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto11.Name" xml:space="preserve">
+    <value>cmbNomePonto11</value>
+  </data>
+  <data name="cmbNomePonto5.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto5.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmbNomePonto5.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto7.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto5.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.Parent" xml:space="preserve">
+    <value>grpBox</value>
+  </data>
+  <data name="cmbNomePonto6.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto15.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto14.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="cmbNomePonto9.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto13.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblNomePonto4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 13</value>
+  </data>
+  <data name="cmbNomePonto11.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 159</value>
+  </data>
+  <data name="lblNomePonto2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="cmbNomePonto1.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto9.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNomePonto14.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lblNomePonto16.Text" xml:space="preserve">
+    <value>16 - Espinha ilíaca posterior esquerda</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPasso.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 9</value>
+  </data>
+  <data name="lblNomePonto8.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="cmbNomePonto2.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto2.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto9.Name" xml:space="preserve">
+    <value>cmbNomePonto9</value>
+  </data>
+  <data name="cmbNomePonto2.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbNomePonto15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto10.Name" xml:space="preserve">
+    <value>cmbNomePonto10</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 412</value>
+  </data>
+  <data name="lblNomePonto13.Text" xml:space="preserve">
+    <value>13 - Processo espinhoso da 3ª vértebra lombar</value>
+  </data>
+  <data name="cmbNomePonto7.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbNomePonto9.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmbNomePonto9.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto9.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto9.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmNovaAvaliacaoPostural_5</value>
+  </data>
+  <data name="pctImagem.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="cmbNomePonto9.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbNomePonto9.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto16.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto16.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto16.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto8.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbNomePonto16.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto1.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPasso.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNomePonto11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbNomePonto7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 251</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto4.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblNomePonto9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNomePonto8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 13</value>
+  </data>
+  <data name="&gt;&gt;lblPasso.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto14.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblNomePonto13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 13</value>
+  </data>
+  <data name="grpBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-15, 536</value>
+  </data>
+  <data name="cmbNomePonto9.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto12.Name" xml:space="preserve">
+    <value>lblNomePonto12</value>
+  </data>
+  <data name="cmbNomePonto11.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmbNomePonto2.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto14.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto1.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto2.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto5.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto3.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblNomePonto2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNomePonto9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 13</value>
+  </data>
+  <data name="cmbNomePonto12.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto12.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto12.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNomePonto12.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto12.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto12.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto12.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblNomePonto11.Text" xml:space="preserve">
+    <value>11 - Processo espinhoso da 12ª vértebra torácica</value>
+  </data>
+  <data name="cmbNomePonto12.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto8.Name" xml:space="preserve">
+    <value>cmbNomePonto8</value>
+  </data>
+  <data name="cmbNomePonto4.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto4.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;grpBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto4.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmbNomePonto4.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto4.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbNomePonto2.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblNomePonto16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 13</value>
+  </data>
+  <data name="cmbNomePonto6.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto2.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto3.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto3.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto3.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnProximo.Text" xml:space="preserve">
+    <value>&amp;Próximo &gt;</value>
+  </data>
+  <data name="cmbNomePonto3.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnProximo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto8.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lblPasso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 25</value>
+  </data>
+  <data name="cmbNomePonto8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="lblNomePonto8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbNomePonto12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 366</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>644, 588</value>
+  </data>
+  <data name="lblNomePonto14.Text" xml:space="preserve">
+    <value>14 - Processo espinhoso da 5ª vértebra lombar</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto4.Name" xml:space="preserve">
+    <value>cmbNomePonto4</value>
+  </data>
+  <data name="cmbNomePonto1.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto1.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto1.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto2.Name" xml:space="preserve">
+    <value>cmbNomePonto2</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto1.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto15.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblNomePonto4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 185</value>
+  </data>
+  <data name="cmbNomePonto3.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbNomePonto5.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto16.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblImagem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto15.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 435</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto7.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnCancelar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto8.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto8.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbNomePonto8.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto8.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto8.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto8.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmbNomePonto7.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNomePonto8.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNomePonto12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 13</value>
+  </data>
+  <data name="cmbNomePonto4.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbNomePonto6.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pctImagem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 113</value>
+  </data>
+  <data name="btnCancelar.Text" xml:space="preserve">
+    <value>&amp;Cancelar</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNomePonto12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 369</value>
+  </data>
+  <data name="cmbNomePonto10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="grpBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto9.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto5.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblNomePonto10.Text" xml:space="preserve">
+    <value>10 - Processo espinhoso da 9ª vértebra torácica</value>
+  </data>
+  <data name="cmbNomePonto16.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblImagem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto6.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="cmbNomePonto11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 343</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto1.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNomePonto3.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="lblImagem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNomePonto13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 392</value>
+  </data>
+  <data name="lblNomePonto1.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="lblNomePonto13.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="lblNomePonto12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbNomePonto6.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto15.Name" xml:space="preserve">
+    <value>lblNomePonto15</value>
+  </data>
+  <data name="lblNomePonto6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNomePonto4.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="cmbNomePonto12.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblNomePonto10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 13</value>
+  </data>
+  <data name="cmbNomePonto5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto13.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto11.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="&gt;&gt;btnProximo.Parent" xml:space="preserve">
+    <value>grpBox</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto12.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;grpBox.Name" xml:space="preserve">
+    <value>grpBox</value>
+  </data>
+  <data name="cmbNomePonto14.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto11.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="cmbNomePonto10.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto10.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto15.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto11.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto11.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNomePonto11.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto11.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto11.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto11.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbNomePonto11.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto11.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbNomePonto3.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblNomePonto5.Text" xml:space="preserve">
+    <value>5 - Processo espinhoso da 7ª vértebra cervical</value>
+  </data>
+  <data name="lblNomePonto14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 13</value>
+  </data>
+  <data name="cmbNomePonto13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 389</value>
+  </data>
+  <data name="lblNomePonto5.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto7.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto8.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="cmbNomePonto4.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto6.Name" xml:space="preserve">
+    <value>lblNomePonto6</value>
+  </data>
+  <data name="lblNomePonto1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNomePonto6.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="cmbNomePonto4.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNomePonto12.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto16.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto3.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto9.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto5.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto1.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblNomePonto3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto7.Name" xml:space="preserve">
+    <value>lblNomePonto7</value>
+  </data>
+  <data name="lblNomePonto2.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto5.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnProximo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto13.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto10.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto13.Name" xml:space="preserve">
+    <value>lblNomePonto13</value>
+  </data>
+  <data name="cmbNomePonto6.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto2.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto1.Name" xml:space="preserve">
+    <value>cmbNomePonto1</value>
+  </data>
+  <data name="lblNomePonto10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 323</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto15.Name" xml:space="preserve">
+    <value>cmbNomePonto15</value>
+  </data>
+  <data name="cmbNomePonto6.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pctImagem.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblNomePonto16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 461</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnProximo.Name" xml:space="preserve">
+    <value>btnProximo</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 320</value>
+  </data>
+  <data name="cmbNomePonto12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="lblNomePonto7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNomePonto1.Text" xml:space="preserve">
+    <value>1 - Protuberância occipital externa</value>
+  </data>
+  <data name="cmbNomePonto15.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnProximo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 17</value>
+  </data>
+  <data name="cmbNomePonto7.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbNomePonto7.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto13.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto7.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto7.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto7.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmbNomePonto7.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto10.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto12.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto7.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto5.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="cmbNomePonto14.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto8.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto12.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto4.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblNomePonto6.Text" xml:space="preserve">
+    <value>6 - Processo espinhoso da 1ª vértebra torácica</value>
+  </data>
+  <data name="cmbNomePonto10.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblImagem.Text" xml:space="preserve">
+    <value>Imagem:</value>
+  </data>
+  <data name="lblNomePonto9.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto7.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblImagem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pctImagem.Name" xml:space="preserve">
+    <value>pctImagem</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto9.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblNomePonto11.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNomePonto7.Text" xml:space="preserve">
+    <value>7 - Processo espinhoso da 3ª vértebra torácica</value>
+  </data>
+  <data name="lblNomePonto12.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="cmbNomePonto5.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto1.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto5.Name" xml:space="preserve">
+    <value>cmbNomePonto5</value>
+  </data>
+  <data name="cmbNomePonto8.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="lblNomePonto12.Text" xml:space="preserve">
+    <value>12 - Processo espinhoso da 1ª vértebra lombar</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto13.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto2.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto3.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto8.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto3.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto16.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto11.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto11.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto6.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto2.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pctImagem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto3.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblNomePonto15.Text" xml:space="preserve">
+    <value>15 - Espinha ilíaca posterior direita</value>
+  </data>
+  <data name="lblPasso.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="cmbNomePonto10.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="cmbNomePonto9.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>749, 100</value>
+  </data>
+  <data name="lblNomePonto14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto15.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto14.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto9.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="cmbNomePonto12.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbNomePonto11.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Nova Avaliação Postural - Passo 5</value>
+  </data>
+  <data name="cmbNomePonto4.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 458</value>
+  </data>
+  <data name="cmbNomePonto4.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmbNomePonto16.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto16.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbNomePonto3.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto7.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbNomePonto16.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto16.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto8.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbNomePonto10.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto2.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto16.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblPasso.Text" xml:space="preserve">
+    <value>Passo 5 - Ordem dos Pontos</value>
+  </data>
+  <data name="lblNomePonto3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 162</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto15.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNomePonto3.Text" xml:space="preserve">
+    <value>3 - Acrômio Esquerdo</value>
+  </data>
+  <data name="cmbNomePonto10.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbNomePonto2.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="cmbNomePonto13.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto10.Name" xml:space="preserve">
+    <value>lblNomePonto10</value>
+  </data>
+  <data name="cmbNomePonto16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="cmbNomePonto4.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto9.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto16.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto15.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto13.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbNomePonto11.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lblImagem.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto12.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cmbNomePonto5.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto1.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto12.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto13.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;grpBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto10.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblNomePonto5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNomePonto8.Text" xml:space="preserve">
+    <value>8 - Processo espinhoso da 5ª vértebra torácica</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto12.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto8.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNomePonto3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="cmbNomePonto6.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto2.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCancelar.Name" xml:space="preserve">
+    <value>btnCancelar</value>
+  </data>
+  <data name="cmbNomePonto1.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto3.Name" xml:space="preserve">
+    <value>cmbNomePonto3</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto7.Name" xml:space="preserve">
+    <value>cmbNomePonto7</value>
+  </data>
+  <data name="lblNomePonto9.Text" xml:space="preserve">
+    <value>9 - Processo espinhoso da 7ª vértebra torácica</value>
+  </data>
+  <data name="cmbNomePonto3.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblNomePonto7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 254</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto6.Name" xml:space="preserve">
+    <value>cmbNomePonto6</value>
+  </data>
+  <data name="cmbNomePonto10.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblNomePonto4.Text" xml:space="preserve">
+    <value>4 - Processo espinhoso da 4ª vértebra cervical</value>
+  </data>
+  <data name="lblNomePonto8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 277</value>
+  </data>
+  <data name="lblNomePonto10.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNomePonto11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 13</value>
+  </data>
+  <data name="cmbNomePonto7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto6.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="cmbNomePonto10.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto10.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNomePonto12.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto6.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="cmbNomePonto10.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto10.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto10.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto13.Name" xml:space="preserve">
+    <value>cmbNomePonto13</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto10.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto7.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 274</value>
+  </data>
+  <data name="&gt;&gt;pctImagem.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="cmbNomePonto8.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblNomePonto4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNomePonto2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 139</value>
+  </data>
+  <data name="cmbNomePonto16.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="btnProximo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmbNomePonto14.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto8.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblNomePonto10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblPasso.Name" xml:space="preserve">
+    <value>lblPasso</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto4.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto9.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto14.Name" xml:space="preserve">
+    <value>cmbNomePonto14</value>
+  </data>
+  <data name="cmbNomePonto14.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblImagem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 97</value>
+  </data>
+  <data name="lblNomePonto15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 438</value>
+  </data>
+  <data name="&gt;&gt;lblPasso.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto5.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbNomePonto15.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto15.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto15.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNomePonto5.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto15.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto15.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto15.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto15.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbNomePonto15.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto15.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto3.Name" xml:space="preserve">
+    <value>lblNomePonto3</value>
+  </data>
+  <data name="cmbNomePonto13.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbNomePonto5.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="pctImagem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 361</value>
+  </data>
+  <data name="lblNomePonto14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 415</value>
+  </data>
+  <data name="cmbNomePonto10.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbNomePonto6.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto16.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="cmbNomePonto15.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblNomePonto9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 300</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto2.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblNomePonto5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 13</value>
+  </data>
+  <data name="cmbNomePonto2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 136</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNomePonto6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 231</value>
+  </data>
+  <data name="cmbNomePonto3.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCancelar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 17</value>
+  </data>
+  <data name="lblImagem.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cmbNomePonto9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 297</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="cmbNomePonto11.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbNomePonto3.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNomePonto16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbNomePonto1.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnProximo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbNomePonto7.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblPasso.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15.75pt</value>
+  </data>
+  <data name="btnCancelar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cmbNomePonto12.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto5.Name" xml:space="preserve">
+    <value>lblNomePonto5</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto2.Name" xml:space="preserve">
+    <value>lblNomePonto2</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto1.Name" xml:space="preserve">
+    <value>lblNomePonto1</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbNomePonto4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto4.Name" xml:space="preserve">
+    <value>lblNomePonto4</value>
+  </data>
+  <data name="cmbNomePonto7.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="cmbNomePonto8.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto3.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblPasso.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="cmbNomePonto14.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbNomePonto14.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbNomePonto14.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbNomePonto1.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto14.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbNomePonto14.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbNomePonto14.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto14.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbNomePonto14.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbNomePonto14.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbNomePonto13.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblNomePonto16.Name" xml:space="preserve">
+    <value>lblNomePonto16</value>
+  </data>
+  <data name="lblNomePonto16.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="cmbNomePonto5.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbNomePonto1.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbNomePonto2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>English (United States)</value>
+  </metadata>
+</root>

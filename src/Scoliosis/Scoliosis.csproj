@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CEF29009-3D4D-4663-8345-88A6F4645EDC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Scoliosis</RootNamespace>
+    <AssemblyName>Scoliosis</AssemblyName>
+    <StartupObject>Scoliosis.Program</StartupObject>
+    <ApplicationIcon>Resources\Scoliosis.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmErro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmErro.Designer.cs">
+      <DependentUpon>FrmErro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_4.Designer.cs">
+      <DependentUpon>FrmNovaAvaliacaoPostural_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAquisicaoImagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAquisicaoImagem.Designer.cs">
+      <DependentUpon>FrmAquisicaoImagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlterarSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlterarSenha.Designer.cs">
+      <DependentUpon>FrmAlterarSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBaseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBaseDialog.Designer.cs">
+      <DependentUpon>FrmBaseDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuscarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuscarPaciente.Designer.cs">
+      <DependentUpon>FrmBuscarPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_1.Designer.cs">
+      <DependentUpon>FrmNovaAvaliacaoPostural_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_2.Designer.cs">
+      <DependentUpon>FrmNovaAvaliacaoPostural_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_3.Designer.cs">
+      <DependentUpon>FrmNovaAvaliacaoPostural_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_5.Designer.cs">
+      <DependentUpon>FrmNovaAvaliacaoPostural_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovaAvaliacaoPostural_6.Designer.cs">
+      <DependentUpon>FrmNovaAvaliacaoPostural_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovoIMC_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovoIMC_1.Designer.cs">
+      <DependentUpon>FrmNovoIMC_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovoIMC_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovoIMC_2.Designer.cs">
+      <DependentUpon>FrmNovoIMC_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovoIMC_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovoIMC_3.Designer.cs">
+      <DependentUpon>FrmNovoIMC_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovoIMC_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovoIMC_4.Designer.cs">
+      <DependentUpon>FrmNovoIMC_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovoIMC_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovoIMC_5.Designer.cs">
+      <DependentUpon>FrmNovoIMC_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovoIMC_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovoIMC_6.Designer.cs">
+      <DependentUpon>FrmNovoIMC_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOpcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOpcoes.Designer.cs">
+      <DependentUpon>FrmOpcoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPacientes.Designer.cs">
+      <DependentUpon>FrmPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSobre.Designer.cs">
+      <DependentUpon>FrmSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVisualizarAvaliacaoPostural.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVisualizarAvaliacaoPostural.Designer.cs">
+      <DependentUpon>FrmVisualizarAvaliacaoPostural.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVisualizarIMC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVisualizarIMC.Designer.cs">
+      <DependentUpon>FrmVisualizarIMC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAlterarSenha.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAlterarSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAquisicaoImagem.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAquisicaoImagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAquisicaoImagem.pt-BR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAquisicaoImagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarPaciente.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBuscarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmErro.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmErro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmErro.pt-BR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmErro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmErro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmErro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_1.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_2.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_3.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_4.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_4.resx">
+      <DependentUpon>FrmNovaAvaliacaoPostural_4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAquisicaoImagem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAquisicaoImagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlterarSenha.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAlterarSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBaseDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBaseDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarPaciente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBuscarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_5.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_5.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_6.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovaAvaliacaoPostural_6.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovaAvaliacaoPostural_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_1.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_2.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_3.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_4.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_4.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_5.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_5.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_6.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovoIMC_6.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmNovoIMC_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOpcoes.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmOpcoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOpcoes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmOpcoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPacientes.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPacientes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.pt-BR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSobre.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSobre.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisualizarAvaliacaoPostural.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmVisualizarAvaliacaoPostural.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisualizarAvaliacaoPostural.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmVisualizarAvaliacaoPostural.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisualizarIMC.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmVisualizarIMC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisualizarIMC.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmVisualizarIMC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScoliosisStrings.en-US.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScoliosisStrings.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScoliosisStrings.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScoliosisStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ScoliosisStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScoliosisStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ScoliosisStrings.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScoliosisStrings.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\AppConfig.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manage.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scoliosis_ReadMe.rtf" />
+    <None Include="Resources\Exit.ico" />
+    <None Include="Resources\Help.ico" />
+    <None Include="Resources\ScoliosisLogo.bmp" />
+    <None Include="Resources\Evaluation.ico" />
+    <None Include="Resources\Create.ico" />
+    <None Include="Resources\ScoliosisLogo2.png" />
+    <None Include="Resources\ScoliosisLogo3.png" />
+    <None Include="Resources\Scoliosis.ico" />
+    <None Include="Resources\Security.ico" />
+    <None Include="ScoliosisInstall.jpg" />
+    <None Include="Resources\View.ico" />
+    <None Include="Resources\Tools.ico" />
+    <None Include="Resources\Users.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Scoliosis.BusinessComponent\Scoliosis.BusinessComponent.csproj">
+      <Project>{369131FA-9D0B-4D12-AA8E-544781EED306}</Project>
+      <Name>Scoliosis.BusinessComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Scoliosis.BusinessEntity\Scoliosis.BusinessEntity.csproj">
+      <Project>{4CA4528E-D8A1-4B3A-97BC-F3F12727B413}</Project>
+      <Name>Scoliosis.BusinessEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Scoliosis.Utils\Scoliosis.Utils.csproj">
+      <Project>{2F14B082-E54B-4A33-A8BD-61DECEC4EB77}</Project>
+      <Name>Scoliosis.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

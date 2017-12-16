@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AvaliacaoPosturalDs" targetNamespace="http://tempuri.org/AvaliacaoPosturalDs.xsd" xmlns:mstns="http://tempuri.org/AvaliacaoPosturalDs.xsd" xmlns="http://tempuri.org/AvaliacaoPosturalDs.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ScoliosisConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="ScoliosisConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Scoliosis.BusinessEntity.Properties.Settings.GlobalReference.Default.ScoliosisConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AvaliacaoPosturalDs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="AvaliacaoPosturalDs" msprop:Generator_DataSetName="AvaliacaoPosturalDs">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AvaliacaoPostural" msprop:Generator_UserTableName="AvaliacaoPostural" msprop:Generator_RowDeletedName="AvaliacaoPosturalRowDeleted" msprop:Generator_TableClassName="AvaliacaoPosturalDataTable" msprop:Generator_RowChangedName="AvaliacaoPosturalRowChanged" msprop:Generator_RowClassName="AvaliacaoPosturalRow" msprop:Generator_RowChangingName="AvaliacaoPosturalRowChanging" msprop:Generator_RowEvArgName="AvaliacaoPosturalRowChangeEvent" msprop:Generator_RowEvHandlerName="AvaliacaoPosturalRowChangeEventHandler" msprop:Generator_TablePropName="AvaliacaoPostural" msprop:Generator_TableVarName="tableAvaliacaoPostural" msprop:Generator_RowDeletingName="AvaliacaoPosturalRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodigoAvaliacaoPostural" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="CodigoAvaliacaoPostural" msprop:Generator_ColumnPropNameInRow="CodigoAvaliacaoPostural" msprop:Generator_ColumnVarNameInTable="columnCodigoAvaliacaoPostural" msprop:Generator_ColumnPropNameInTable="CodigoAvaliacaoPosturalColumn" type="xs:int" />
+              <xs:element name="CodigoPaciente" msprop:Generator_UserColumnName="CodigoPaciente" msprop:Generator_ColumnPropNameInRow="CodigoPaciente" msprop:Generator_ColumnVarNameInTable="columnCodigoPaciente" msprop:Generator_ColumnPropNameInTable="CodigoPacienteColumn" type="xs:int" />
+              <xs:element name="CodigoUsuario" msprop:Generator_UserColumnName="CodigoUsuario" msprop:Generator_ColumnPropNameInRow="CodigoUsuario" msprop:Generator_ColumnVarNameInTable="columnCodigoUsuario" msprop:Generator_ColumnPropNameInTable="CodigoUsuarioColumn" type="xs:int" />
+              <xs:element name="CodigoImagem" msprop:Generator_UserColumnName="CodigoImagem" msprop:Generator_ColumnPropNameInRow="CodigoImagem" msprop:Generator_ColumnVarNameInTable="columnCodigoImagem" msprop:Generator_ColumnPropNameInTable="CodigoImagemColumn" type="xs:int" />
+              <xs:element name="Angulo1" msprop:Generator_UserColumnName="Angulo1" msprop:Generator_ColumnPropNameInRow="Angulo1" msprop:Generator_ColumnVarNameInTable="columnAngulo1" msprop:Generator_ColumnPropNameInTable="Angulo1Column" type="xs:double" />
+              <xs:element name="Angulo2" msprop:Generator_UserColumnName="Angulo2" msprop:Generator_ColumnPropNameInRow="Angulo2" msprop:Generator_ColumnVarNameInTable="columnAngulo2" msprop:Generator_ColumnPropNameInTable="Angulo2Column" type="xs:double" />
+              <xs:element name="Angulo3" msprop:Generator_UserColumnName="Angulo3" msprop:Generator_ColumnPropNameInRow="Angulo3" msprop:Generator_ColumnVarNameInTable="columnAngulo3" msprop:Generator_ColumnPropNameInTable="Angulo3Column" type="xs:double" />
+              <xs:element name="Angulo4" msprop:Generator_UserColumnName="Angulo4" msprop:Generator_ColumnPropNameInRow="Angulo4" msprop:Generator_ColumnVarNameInTable="columnAngulo4" msprop:Generator_ColumnPropNameInTable="Angulo4Column" type="xs:double" />
+              <xs:element name="Angulo5" msprop:Generator_UserColumnName="Angulo5" msprop:Generator_ColumnPropNameInRow="Angulo5" msprop:Generator_ColumnVarNameInTable="columnAngulo5" msprop:Generator_ColumnPropNameInTable="Angulo5Column" type="xs:double" />
+              <xs:element name="Angulo6" msprop:Generator_UserColumnName="Angulo6" msprop:Generator_ColumnPropNameInRow="Angulo6" msprop:Generator_ColumnVarNameInTable="columnAngulo6" msprop:Generator_ColumnPropNameInTable="Angulo6Column" type="xs:double" />
+              <xs:element name="Angulo7" msprop:Generator_UserColumnName="Angulo7" msprop:Generator_ColumnPropNameInRow="Angulo7" msprop:Generator_ColumnVarNameInTable="columnAngulo7" msprop:Generator_ColumnPropNameInTable="Angulo7Column" type="xs:double" />
+              <xs:element name="Angulo8" msprop:Generator_UserColumnName="Angulo8" msprop:Generator_ColumnPropNameInRow="Angulo8" msprop:Generator_ColumnVarNameInTable="columnAngulo8" msprop:Generator_ColumnPropNameInTable="Angulo8Column" type="xs:double" />
+              <xs:element name="Angulo9" msprop:Generator_UserColumnName="Angulo9" msprop:Generator_ColumnPropNameInRow="Angulo9" msprop:Generator_ColumnVarNameInTable="columnAngulo9" msprop:Generator_ColumnPropNameInTable="Angulo9Column" type="xs:double" />
+              <xs:element name="Angulo10" msprop:Generator_UserColumnName="Angulo10" msprop:Generator_ColumnPropNameInRow="Angulo10" msprop:Generator_ColumnVarNameInTable="columnAngulo10" msprop:Generator_ColumnPropNameInTable="Angulo10Column" type="xs:double" />
+              <xs:element name="Data" msprop:Generator_UserColumnName="Data" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInTable="DataColumn" type="xs:dateTime" />
+              <xs:element name="Observacoes" msprop:Generator_UserColumnName="Observacoes" msprop:Generator_ColumnPropNameInRow="Observacoes" msprop:Generator_ColumnVarNameInTable="columnObservacoes" msprop:Generator_ColumnPropNameInTable="ObservacoesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AvaliacaoPostural" />
+      <xs:field xpath="mstns:CodigoAvaliacaoPostural" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

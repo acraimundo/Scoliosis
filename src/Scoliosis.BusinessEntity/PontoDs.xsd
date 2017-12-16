@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PontoDs" targetNamespace="http://tempuri.org/PontoDs.xsd" xmlns:mstns="http://tempuri.org/PontoDs.xsd" xmlns="http://tempuri.org/PontoDs.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ScoliosisConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="ScoliosisConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Scoliosis.BusinessEntity.Properties.Settings.GlobalReference.Default.ScoliosisConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PontoDs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PontoDs" msprop:Generator_DataSetName="PontoDs">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ponto" msprop:Generator_UserTableName="Ponto" msprop:Generator_RowDeletedName="PontoRowDeleted" msprop:Generator_TableClassName="PontoDataTable" msprop:Generator_RowChangedName="PontoRowChanged" msprop:Generator_RowClassName="PontoRow" msprop:Generator_RowChangingName="PontoRowChanging" msprop:Generator_RowEvArgName="PontoRowChangeEvent" msprop:Generator_RowEvHandlerName="PontoRowChangeEventHandler" msprop:Generator_TablePropName="Ponto" msprop:Generator_TableVarName="tablePonto" msprop:Generator_RowDeletingName="PontoRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodigoPonto" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="CodigoPonto" msprop:Generator_ColumnPropNameInRow="CodigoPonto" msprop:Generator_ColumnVarNameInTable="columnCodigoPonto" msprop:Generator_ColumnPropNameInTable="CodigoPontoColumn" type="xs:int" />
+              <xs:element name="CodigoImagem" msprop:Generator_UserColumnName="CodigoImagem" msprop:Generator_ColumnPropNameInRow="CodigoImagem" msprop:Generator_ColumnVarNameInTable="columnCodigoImagem" msprop:Generator_ColumnPropNameInTable="CodigoImagemColumn" type="xs:int" />
+              <xs:element name="XImagem" msprop:Generator_UserColumnName="XImagem" msprop:Generator_ColumnPropNameInRow="XImagem" msprop:Generator_ColumnVarNameInTable="columnXImagem" msprop:Generator_ColumnPropNameInTable="XImagemColumn" type="xs:int" />
+              <xs:element name="YImagem" msprop:Generator_UserColumnName="YImagem" msprop:Generator_ColumnPropNameInRow="YImagem" msprop:Generator_ColumnVarNameInTable="columnYImagem" msprop:Generator_ColumnPropNameInTable="YImagemColumn" type="xs:int" />
+              <xs:element name="XCorrigido" msprop:Generator_UserColumnName="XCorrigido" msprop:Generator_ColumnPropNameInRow="XCorrigido" msprop:Generator_ColumnVarNameInTable="columnXCorrigido" msprop:Generator_ColumnPropNameInTable="XCorrigidoColumn" type="xs:double" />
+              <xs:element name="YCorrigido" msprop:Generator_UserColumnName="YCorrigido" msprop:Generator_ColumnPropNameInRow="YCorrigido" msprop:Generator_ColumnVarNameInTable="columnYCorrigido" msprop:Generator_ColumnPropNameInTable="YCorrigidoColumn" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Ponto" />
+      <xs:field xpath="mstns:CodigoPonto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
